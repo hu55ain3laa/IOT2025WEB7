@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: cursive;
 }
 
 .navbar {
@@ -44,3 +44,64 @@ a:hover {
     color: yellow;
     font-size: large;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Start Here */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    gap: 30px;
+}
+
+.text p{
+    font-size: x-large;
+}
+
+.text button {
+    width: 100px;
+    padding: 10px;
+    background-color: brown;
+    color: white;
+    border-radius: 50px;
+}
+
+.pic img {
+    width: 30vw;
+}
+
+.text h1 span {
+    background-color: brown;
+    color: white;
+    padding: 10px;
+}
+
+.text h1 span:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.text button:hover {
+    background-color: black;
+}
+
+
